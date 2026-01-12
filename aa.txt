@@ -1,0 +1,29 @@
+README.md 파일 생성
+git add .
+# 상태 확인
+git status
+git commit -m 'main first commit'
+
+git branch a
+git checkout a
+# 브랜치 이동 확인
+git branch
+aa.txt 파일 생성
+git add .
+# 상태 확인
+git status
+git commit -m 'branch a first commit'
+
+git branch b
+git checkout b
+# 브랜치 이동 확인
+git branch
+bb.txt 파일 생성
+git add .
+# 상태 확인
+git status
+git commit -m 'branch b first commit'
+
+git checkout main
+git merge a
+git merge b
